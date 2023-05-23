@@ -41,14 +41,14 @@ function Question({ question, correct, incorrect }) {
             <ul>
                 {shuffledAnswers.map((answer, index) => (
                     <li key={index}>
-                    <Button 
+                    <button 
                     variant='contained'
                     style={{ backgroundColor: checkIfCorrect(answer)}}
                     onClick={() => handleAnswerClick(answer)}
                     disabled={clickedAnswer !== null}
                     >{answer}
                     
-                    </Button>
+                    </button>
                     
                     </li>
                 ))}
