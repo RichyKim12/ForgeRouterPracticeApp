@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './App.css';
+import './index.css';
 import Location from './Location.js';
 import NYT from './NYT.js';
 import Weather from './Weather.js';

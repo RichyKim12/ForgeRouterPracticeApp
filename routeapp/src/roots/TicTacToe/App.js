@@ -97,6 +97,45 @@ export default function Game() {
             <ol className = "myUL">{moves}</ol>
           </div>
         </div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        <div className = "spacefill"></div>
+        
         
       </div>
     </center>

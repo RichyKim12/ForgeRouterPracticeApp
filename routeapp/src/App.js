@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import TTTApp from "./roots/TicTacToe/App.js"
+import WeatherApp from "./roots/WeatherApp/App.js"
+import TriviaApp from "./roots/TriviaApp/App.js";
+import MenuApp from "./roots/MenuApp/App.js";
+import Root from "./roots/root.js";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element={<Root />}/>
+        <Route path = "tttapp" element={<TTTApp />}/>
+        <Route path = "weatherapp" element={<WeatherApp />}/>
+        <Route path = "triviaapp" element={<TriviaApp />}/>
+        <Route path = "menuapp" element={<MenuApp />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default App;
