@@ -16,6 +16,11 @@ const root = () =>{
                 </Link> 
             </div>
             <div>
+                <Link to = "/newsapp"> 
+                    News App 
+                </Link> 
+            </div>
+            <div>
                 <Link to = "/triviaapp"> 
                     Trivia App 
                 </Link> 
